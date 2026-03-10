@@ -1,3 +1,7 @@
+/**
+ * ESTUDIANTE 1 - Representación de datos
+ * Clase que representa un Superhéroe en el sistema.
+ */
 public class Superheroe {
     private String nombreHeroe;
     private String identidadSecreta;
@@ -17,6 +21,6 @@ public class Superheroe {
 
     @Override
     public String toString() {
-        return "Heroe: " + nombreHeroe + " | Identidad Secreta: " + identidadSecreta;
+        return "Héroe: " + nombreHeroe + " | Identidad Secreta: " + identidadSecreta;
     }
 }
